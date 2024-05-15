@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.p-tree-toggler {
+  position: absolute;
+  right: 0;
+  border-radius: 0;
+  margin-top: 4px;
+  background: none;
+  margin-right: 12px;
+}
+
+.p-treenode-content {
+  position: relative;
+}
+
+.p-tree-container {
+  overflow: hidden;
+}
+
+/* 
+.p-treenode {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-treenode-content {
+  height: 44px;
+  width: 100%;
+}
+
+.p-treenode-children {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+
+.p-treenode-children .p-treenode-content {
+  height: 44px;
+  width: 100%;
+  padding-left: 24px;
+}
+
+.p-treenode-leaf {
+  height: 44px;
+  width: 100%;
+} */
+
+.p-dialog-mask {
+  backdrop-filter: blur(7px);
+}
+
+.p-dialog-header {
+  padding: 20px 0 0 0;
+}
+
+.p-dialog-content {
+  padding: 0;
+}
